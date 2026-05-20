@@ -1,0 +1,98 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f4f4;
+}
+
+/* NAVBAR */
+
+header{
+background:white;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+border-bottom:1px solid #ddd;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+font-size:24px;
+font-weight:bold;
+}
+
+.logo img{
+width:50px;
+height:50px;
+border-radius:50%;
+}
+
+nav a{
+text-decoration:none;
+margin-left:20px;
+color:#333;
+}
+
+nav a:hover{
+color:green;
+}
+
+/* PAGE */
+
+.container{
+max-width:700px;
+background:white;
+margin:40px auto;
+padding:30px;
+border-radius:15px;
+}
+
+/* BUTTON */
+
+.btn{
+display:inline-block;
+padding:12px 20px;
+background:#2c6e49;
+color:white;
+border-radius:10px;
+text-decoration:none;
+margin-top:10px;
+}
+
+/* INPUT */
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+/* DASHBOARD CARDS */
+
+.card{
+background:#eee;
+padding:20px;
+border-radius:10px;
+margin:10px 0;
+}
+
+/* QUESTIONS */
+
+.option{
+display:flex;
+align-items:center;
+gap:10px;
+margin:15px 0;
+font-size:18px;
+}
+
+.option input{
+width:auto;
+}
